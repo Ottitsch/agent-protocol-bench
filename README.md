@@ -78,7 +78,6 @@ Agent Protocol Benchmark
 
 **Related Docs**
 - Measurement details: `docs/MEASUREMENT.md`
-- Change plan / TODOs: `docs/TODO.md`
 
 **Results (Sample Runs)**
 - HTTP, auth=none (messages=200, concurrency=4, reuse)
