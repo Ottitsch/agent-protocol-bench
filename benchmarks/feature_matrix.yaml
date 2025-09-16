@@ -1,0 +1,21 @@
+protocols:
+  mcp:
+    transports: ["stdio","sse","http"]
+    tools: true
+    discovery: false
+    identity: "app-managed"
+  acp:
+    transports: ["stdio","sse"]  # optional MCP-compatible variant (use --include-acp)
+    tools: "agent-defined"
+    discovery: "manifest"
+    identity: "app-managed"
+  a2a:
+    transports: ["http", "sse", "grpc"]  # grpc optional; sse optional streaming
+    tools: "capabilities"
+    discovery: "agent-cards"
+    identity: "capability-tokens"
+  anp:
+    transports: ["http"]  # p2p not implemented in this repo
+    tools: "extensible"
+    discovery: "directory/DID"
+    identity: "DID-based"

@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
+  ],
+  "id": "did:wba:localhost:client:benchmark",
+  "verificationMethod": [
+    {
+      "id": "did:wba:localhost:client:benchmark#key-1",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:wba:localhost:client:benchmark",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "mO1LC3ptZV2YCmkXLy9IqYhN1_vQzhLqcAnIhgV4-Tg",
+        "y": "EKZQMYEpk0QTVNKdEpZwSBzPOG_mFB3-AZIow14MgcY",
+        "kid": "z7JHuQim4FF_b_eLrGKmP32MMc6cSLKorwLy8QdpKvc"
+      }
+    }
+  ],
+  "authentication": [
+    "did:wba:localhost:client:benchmark#key-1"
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "mcp": {
+    "stats_total": {
+      "count": 200,
+      "avg_ms": 6.429656998661812,
+      "p50_ms": 6.275049992837012,
+      "p95_ms": 7.6162499899510285,
+      "p99_ms": 8.470276991138233,
+      "min_ms": 4.822899994906038,
+      "max_ms": 8.925999980419874,
+      "std_dev_ms": 0.7099106475771121
+    },
+    "stats_rpc": {
+      "count": 200,
+      "avg_ms": 6.429656998661812,
+      "p50_ms": 6.275049992837012,
+      "p95_ms": 7.6162499899510285,
+      "p99_ms": 8.470276991138233,
+      "min_ms": 4.822899994906038,
+      "max_ms": 8.925999980419874,
+      "std_dev_ms": 0.7099106475771121
+    },
+    "success": 200,
+    "throughput_msgs_per_sec": 553.4378869777988,
+    "connect_init_ms": 20.451800024602562
+  },
+  "a2a": {
+    "stats_total": {
+      "count": 200,
+      "avg_ms": 5.222536500077695,
+      "p50_ms": 4.2466500017326325,
+      "p95_ms": 5.691725015640255,
+      "p99_ms": 47.498904024250805,
+      "min_ms": 2.5189999723806977,
+      "max_ms": 47.73270001169294,
+      "std_dev_ms": 6.103201981022594
+    },
+    "stats_rpc": {
+      "count": 200,
+      "avg_ms": 5.222536500077695,
+      "p50_ms": 4.2466500017326325,
+      "p95_ms": 5.691725015640255,
+      "p99_ms": 47.498904024250805,
+      "min_ms": 2.5189999723806977,
+      "max_ms": 47.73270001169294,
+      "std_dev_ms": 6.103201981022594
+    },
+    "success": 200,
+    "throughput_msgs_per_sec": 667.0221895088789,
+    "connect_init_ms": 9.201399981975555
+  },
+  "anp": {
+    "stats_total": {
+      "count": 200,
+      "avg_ms": 3.5288109979592264,
+      "p50_ms": 3.4539999905973673,
+      "p95_ms": 3.903180017368867,
+      "p99_ms": 6.290910984971559,
+      "min_ms": 1.965200004633516,
+      "max_ms": 6.764899997506291,
+      "std_dev_ms": 0.47815340410921453
+    },
+    "stats_rpc": {
+      "count": 200,
+      "avg_ms": 3.5288109979592264,
+      "p50_ms": 3.4539999905973673,
+      "p95_ms": 3.903180017368867,
+      "p99_ms": 6.290910984971559,
+      "min_ms": 1.965200004633516,
+      "max_ms": 6.764899997506291,
+      "std_dev_ms": 0.47815340410921453
+    },
+    "success": 200,
+    "throughput_msgs_per_sec": 923.2165417799938,
+    "connect_init_ms": 9.976300003472716
+  },
+  "acp": {
+    "stats_total": {
+      "count": 200,
+      "avg_ms": 5.33855849847896,
+      "p50_ms": 5.195799982175231,
+      "p95_ms": 6.152315039071254,
+      "p99_ms": 6.598155007814057,
+      "min_ms": 3.431699995417148,
+      "max_ms": 7.3933000094257295,
+      "std_dev_ms": 0.4658085520956031
+    },
+    "stats_rpc": {
+      "count": 200,
+      "avg_ms": 5.33855849847896,
+      "p50_ms": 5.195799982175231,
+      "p95_ms": 6.152315039071254,
+      "p99_ms": 6.598155007814057,
+      "min_ms": 3.431699995417148,
+      "max_ms": 7.3933000094257295,
+      "std_dev_ms": 0.4658085520956031
+    },
+    "success": 200,
+    "throughput_msgs_per_sec": 661.2584542185891,
+    "connect_init_ms": 20.142900000791997
+  },
+  "statistical_comparisons": {
+    "mcp_vs_a2a": {
+      "p_value": 5.205910340295885e-56,
+      "statistically_significant": true,
+      "effect_size": 0.2785339094291838,
+      "effect_interpretation": "small",
+      "faster_protocol": "a2a",
+      "difference_ms": 1.2071204985841177
+    },
+    "mcp_vs_anp": {
+      "p_value": 1.314867063770622e-64,
+      "statistically_significant": true,
+      "effect_size": 4.80500170449269,
+      "effect_interpretation": "large",
+      "faster_protocol": "anp",
+      "difference_ms": 2.900846000702586
+    },
+    "mcp_vs_acp": {
+      "p_value": 2.0650807940315575e-46,
+      "statistically_significant": true,
+      "effect_size": 1.821858410566983,
+      "effect_interpretation": "large",
+      "faster_protocol": "acp",
+      "difference_ms": 1.0910985001828521
+    },
+    "a2a_vs_anp": {
+      "p_value": 2.809077387098667e-56,
+      "statistically_significant": true,
+      "effect_size": 0.39224732394943007,
+      "effect_interpretation": "small",
+      "faster_protocol": "anp",
+      "difference_ms": 1.6937255021184683
+    },
+    "a2a_vs_acp": {
+      "p_value": 5.174117298848699e-49,
+      "statistically_significant": true,
+      "effect_size": 0.026873537163711114,
+      "effect_interpretation": "negligible",
+      "faster_protocol": "a2a",
+      "difference_ms": 0.11602199840126559
+    },
+    "anp_vs_acp": {
+      "p_value": 3.55805838706507e-61,
+      "statistically_significant": true,
+      "effect_size": 3.843658675245799,
+      "effect_interpretation": "large",
+      "faster_protocol": "anp",
+      "difference_ms": 1.8097475005197339
+    }
+  },
+  "meta": {
+    "transport": "http",
+    "connection_mode": "reuse",
+    "auth_mode": "none",
+    "protocols": [
+      "mcp",
+      "a2a",
+      "anp",
+      "acp"
+    ],
+    "include_acp": true
+  }
+}
