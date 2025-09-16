@@ -47,5 +47,9 @@ htmlcov/
 *.swp
 *.swo
 
+# Secrets/keys
+config/anp_did/**/key-*_private.pem
+
+
 # Ignore YAML configs that are examples
 config/endpoints.example.yaml
